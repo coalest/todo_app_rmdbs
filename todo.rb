@@ -1,4 +1,3 @@
-require 'pry'
 require "sinatra"
 require "sinatra/content_for"
 require "tilt/erubis"
@@ -8,7 +7,7 @@ configure do
   enable :sessions
   set :session_secret, 'secret'
   set :erb, :escape_html => true
-  #set :environment, :production
+  set :environment, :production
 end
 
 configure(:development) do

@@ -1,0 +1,1000 @@
+ 1162  t configure
+ 1163  vi .config/.timetrap.yml 
+ 1164  ls -a
+ 1165  mv .timetrap.db .config/timetrap/
+ 1166  mv .timetrap/ .config/timetrap/
+ 1167  ls
+ 1168  ls -a
+ 1169  t configure
+ 1170  vi .bashrc
+ 1171  source .bashrc
+ 1172  t configure
+ 1173  t d -b
+ 1174  t d v
+ 1175  t d -v
+ 1176  t in
+ 1177  ls -a
+ 1178  ls -a | wc -l
+ 1179  ls
+ 1180  ls -a
+ 1181  ls .gem/
+ 1182  ls .gem/ruyb
+ 1183  ls .local
+ 1184  ls .local/lib/
+ 1185  ls .local/share
+ 1186  ls .local/bin
+ 1187  ls .config/
+ 1188  ls .config/ -a
+ 1189  ls .config/xmonad/
+ 1190  mkdir .config/timetrap
+ 1191  mv .config/.timetrap.yml .config/timetrap/
+ 1192  tmux
+ 1193  ls -a
+ 1194  cat .netrc 
+ 1195  tldr heroku
+ 1196  cat .lesshst
+ 1197  rm .lesshst 
+ 1198  ls -a
+ 1199  ls .stack/
+ 1200  ls .yardoc/
+ 1201  cd .yardoc/
+ 1202  cat checksums 
+ 1203  cat complete 
+ 1204  cat object
+ 1205  cat object_types 
+ 1206  cat proxy_types 
+ 1207  cd objects/
+ 1208  ls
+ 1209  cat root.dat 
+ 1210  cd
+ 1211  rm -r .yardoc/
+ 1212  ls
+ 1213  ls -a
+ 1214  ls .pki/
+ 1215  ls .pki/nssdb/
+ 1216  cd .pki/nssdb/
+ 1217  cat cert9.db 
+ 1218  cat key4.db 
+ 1219  cat pkcs11.txt 
+ 1220  cd
+ 1221  mv .pki/ pki/
+ 1222  mv pki/ .config/
+ 1223  ls -a
+ 1224  cat .python_history 
+ 1225  rm .python_history 
+ 1226  ls -a
+ 1227  pyenv
+ 1228  which pyenv
+ 1229  cat .python-version 
+ 1230  rm .python-version 
+ 1231  ls -a
+ 1232  cat .spotdl-cache 
+ 1233  which spotdl
+ 1234  cd .local/bin
+ 1235  ls
+ 1236  spotdl --help
+ 1237  spotdl -p
+ 1238  tldr spotdl
+ 1239  ls -a
+ 1240  cd
+ 1241  ls -a
+ 1242  cat .spotdl-cache 
+ 1243  mv .spotdl-cache .cache
+ 1244  ls
+ 1245  ls -a
+ 1246  cd .cache
+ 1247  ls
+ 1248  ls -a
+ 1249  mv .spotdl-cache spotdl-cache 
+ 1250  mkdir spotdl
+ 1251  mv spotdl-cache spotdl
+ 1252  ls 
+ 1253  ls -a
+ 1254  cd
+ 1255  ls -a
+ 1256  prot
+ 1257  sudo protonvpn d
+ 1258  ls -a | wc
+ 1259  ls -a | wc -l
+ 1260  cat .bash_logout 
+ 1261  ls .gem/
+ 1262  ls .gem/ruby/
+ 1263  ls .gem/ruby/2.7.0/
+ 1264  ls .gem/ruby/2.7.0/cache/
+ 1265  ls .gem/ruby/specs
+ 1266  ls .gem/specs/
+ 1267  ls .gem/specs/api.rubygems.org%443/
+ 1268  ls .gem/specs/api.rubygems.org%443/quick/
+ 1269  cd .gem/ruby/2.7.0/cache/
+ 1270  ls
+ 1271  vi ast-2.4.2.gem 
+ 1272  cd
+ 1273  rm -r .gem/
+ 1274  ls
+ 1275  which solargraph 
+ 1276  solargraph --help
+ 1277  ls -a 
+ 1278  ls .icons/
+ 1279  ls .mono/
+ 1280  ls .mono/registry/
+ 1281  ls .mono/registry/CurrentUser/
+ 1282  ls .mono/registry/CurrentUser/ -a
+ 1283  ls .mono/registry/last-btime 
+ 1284  cat .mono/registry/last-btime 
+ 1285  which mono
+ 1286  apt list | grep mono
+ 1287  apt list | grep mono | grep install
+ 1288  ls -a
+ 1289  cat .NERDTreeBookmarks 
+ 1290  vi
+ 1291  vi .config/nvim/init.vim 
+ 1292  cp .NERDTreeBookmarks .config/nvim/
+ 1293  vi
+ 1294  source .bashrc
+ 1295  vi
+ 1296  exit
+ 1297  ls .config/nvim/
+ 1298  ls .config/nvim/ -a
+ 1299  vi
+ 1300  rm .NERDTreeBookmarks 
+ 1301  ls
+ 1302  ls -a
+ 1303  ls .config/nvim/ -a
+ 1304  cd .config/nvim/
+ 1305  mv .NERDTreeBookmarks NERDTreeBookmarks
+ 1306  vi
+ 1307  cd
+ 1308  vi
+ 1309  ls -a
+ 1310  ls -a | wc -l
+ 1311  ls .mozilla/
+ 1312  ls .mozilla/firefox/
+ 1313  ls .mozilla/extensions/
+ 1314  ls .mozilla/extensions/ -a
+ 1315  tree .mozilla
+ 1316  ls -a
+ 1317  ls .localshare/
+ 1318  ls .var/
+ 1319  ls .var/app/
+ 1320  ls .vim
+ 1321  ls .vim/plugged/
+ 1322  ls .wget-hsts 
+ 1323  cat .wget-hsts 
+ 1324  tldr wget
+ 1325  tldr curl
+ 1326  ls -a
+ 1327  ls .profile 
+ 1328  cat .profile 
+ 1329  vi .lmmsrc.xml 
+ 1330  ls -a
+ 1331  ls .stack/
+ 1332  ls .stack/programs/x86_64-linux/
+ 1333  ls .java/
+ 1334  ls .java/fonts/
+ 1335  ls .java/fonts/1.8.0
+ 1336  ls .java/fonts/1.8.0_241/
+ 1337  mv .java/ .config/
+ 1338  mv .config/.java/ .config/java
+ 1339  ls -a
+ 1340  ls
+ 1341  t in
+ 1342  t d -v
+ 1343  t out 
+ 1344  t kill -i 436
+ 1345  t in
+ 1346  exit
+ 1347  tmux
+ 1348  tmux attach-session -t cms
+ 1349  exit
+ 1350  t out
+ 1351  prot
+ 1352  protonvpn configure
+ 1353  sudo protonvpn configure
+ 1354  c
+ 1355  gem install bundle
+ 1356  tmux attach-session -t cms
+ 1357  LS
+ 1358  cd ../cms_project/
+ 1359  bundle install
+ 1360  ls
+ 1361  bundle exec ruby cms.rb 
+ 1362  ls
+ 1363  tlp-stat
+ 1364  sudo tlp-stat
+ 1365  c
+ 1366  ls
+ 1367  bundle exec ruby test/cms_test.rb 
+ 1368  ls -a
+ 1369  tree
+ 1370  t out
+ 1371  t in
+ 1372  c
+ 1373  touch users.yaml
+ 1374  mv users.yaml users.yml
+ 1375  bundle install
+ 1376  rbenv osx-ssl-certs status all
+ 1377  bundle install
+ 1378  ls
+ 1379  cp users.yml data/
+ 1380  ls
+ 1381  ls data/
+ 1382  rm users.yml 
+ 1383  ls
+ 1384  ls data/
+ 1385  cd
+ 1386  cd Downloads/
+ 1387  ls
+ 1388  feh CZERNIA-KIEROWNICTWOLAB-20220107162105-34.pdf 
+ 1389  zathura CZERNIA-KIEROWNICTWOLAB-20220107162105-34.pdf 
+ 1390  irb
+ 1391  LS
+ 1392  cd ../cms_project/
+ 1393  bundle exec ruby test/cms_test.rb 
+ 1394  ls
+ 1395  ls test/
+ 1396  ls data/
+ 1397  ls test/
+ 1398  bundle exec ruby test/cms_test.rb 
+ 1399  ls
+ 1400  mv data/users.yml .
+ 1401  ls
+ 1402  bundle exec ruby test/cms_test.rb 
+ 1403  vi Gemfile
+ 1404  bundle install
+ 1405  apt list | grep openssl
+ 1406  bundle install
+ 1407  gem update --system
+ 1408  gem update --system --source http://rubygems.org/
+ 1409  gem update
+ 1410  curl -Lks 'https://git.io/rg-ssl' | ruby
+ 1411  gem install bundler
+ 1412  bundler
+ 1413  tldr bundler
+ 1414  tldr bundle
+ 1415  bundle update
+ 1416  cd
+ 1417  vi GlobalSignRootCA.pem
+ 1418  which rubygems
+ 1419  which gem
+ 1420  which ruby
+ 1421  which ruby-build
+ 1422  ruby-build --help
+ 1423  ruby-build --version
+ 1424  sudo apt-get install libssl-dev
+ 1425  sudo apt install ca-certificates
+ 1426  which rbenv
+ 1427  ls .rbenv/
+ 1428  ls .rbenv/plugins/
+ 1429  ls
+ 1430  cd .rbenv/plugins/
+ 1431  ls ruby-build/
+ 1432  cd
+ 1433  git -C .rbenv/plugins/ruby-build pull
+ 1434  ruby-build --version
+ 1435  cd .rbenv/
+ 1436  ls
+ 1437  cd plugins/
+ 1438  ls
+ 1439  rbenv --update
+ 1440  apt list | grep rbenv
+ 1441  cd
+ 1442  LS
+ 1443  cd ../cms_project/
+ 1444  bundle install
+ 1445  gem install bundler
+ 1446  gem install bundle
+ 1447  which bundle
+ 1448  ruby -ropenssl -e 'p OpenSSL::X509::DEFAULT_CERT_FILE'
+ 1449  cat /usr/lib/ssl/cert.pem
+ 1450  ls /usr/lib/ssl
+ 1451  ls /usr/lib/ssl/certs
+ 1452  gem update
+ 1453  nvim cms.rb
+ 1454  vi cms.rb 
+ 1455  fdisk -l
+ 1456  fdisk
+ 1457  sudo apt install fdisk
+ 1458  sudo fdisk -l
+ 1459  ls /dev/sdb5/
+ 1460  ls /mnt/
+ 1461  ls -a /mnt
+ 1462  df -h
+ 1463  ls /run/timeshift/backup/
+ 1464  ls /run/timeshift/backup/pixel_backup/
+ 1465  ls /run/timeshift/backup/pixel_backup/Pictures/
+ 1466  ls /run/timeshift/backup/pixel_backup/Pictures/Messaging/
+ 1467  ls /run/timeshift/backup/pixel_backup/Pictures/Screenshots/
+ 1468  ls /run/timeshift/backup/pixel_backup/
+ 1469  ls /run/timeshift/backup/pixel_backup/osmand/
+ 1470  ls /run/timeshift/backup/pixel_backup/Podcasts/
+ 1471  ls /run/timeshift/backup/pixel_backup/Music/
+ 1472  cd /run/timeshift/backup/pixel_backup/Music/
+ 1473  cp * ~/Music/
+ 1474  cp -r * ~/Music/
+ 1475  cd ..
+ 1476  ls
+ 1477  ls DCIM/
+ 1478  ls DCIM/Camera/
+ 1479  feh DCIM/Camera/IMG_20210414_134212.jpg 
+ 1480  ls Documents/
+ 1481  ls Documents/markor/
+ 1482  ls Documents/vault/
+ 1483  cd ..
+ 1484  ls
+ 1485  ls videos/
+ 1486  cd videos/
+ 1487  cp -r * ~/Videos/
+ 1488  exit
+ 1489  cd /run/timeshift/
+ 1490  cd /run/timeshift/backup/
+ 1491  ls
+ 1492  ls -lh
+ 1493  du -sh
+ 1494  du -sh videos/
+ 1495  du -sh pixel_backup/
+ 1496  du -sh rsync_backup/
+ 1497  du -sh rsync_backup/ 0715_backup/
+ 1498  du -sh rsync_backup/ 0715_backup/ pixel_backup/
+ 1499  du -sh rsync_backup/ 0715_backup/ pixel_backup/ videos/
+ 1500  du -sh rsync_backup/ 0715_backup/ pixel_backup/ videos/ google_drive/
+ 1501  du -sh rsync_backup/ 0715_backup/ pixel_backup/ videos/ google_drive/ 20190721-wesele-basi/
+ 1502  du -sh camera_backup/
+ 1503  sudo -l
+ 1504  lsblk -f
+ 1505  cat /etc/fstab
+ 1506  findmnt /dev/sda5
+ 1507  findmnt /dev/sda1
+ 1508  findmnt /dev/sda5
+ 1509  sudo umount /dev/sda5
+ 1510  cat /etc/fstab
+ 1511  lsblk -f
+ 1512  sudo umount /run/timeshift/
+ 1513  sudo umount /run/timeshift
+ 1514  sudo umount /dev/sda5
+ 1515  sudo umount /dev/sda5/
+ 1516  sudo umount /dev/sdb5/
+ 1517  umount -l /run/timeshift/backup 
+ 1518  sudo umount -l /run/timeshift/backup 
+ 1519  sudo umount /dev/sdb5/
+ 1520  lsblk -f
+ 1521  sudo umount -l /run/timeshift/backup 
+ 1522  lsblk -f
+ 1523  sudo umount -l /media/aleks/storage 
+ 1524  tmux
+ 1525  bundle install
+ 1526  vi Gemfile
+ 1527  bundle install
+ 1528  vi Gemfile
+ 1529  cd ../sinatra_todos/
+ 1530  ls
+ 1531  bundle install
+ 1532  cat Gemfile
+ 1533  cd ../cms_project/
+ 1534  ls
+ 1535  bundle install
+ 1536  vi Gemfile
+ 1537  bundle install
+ 1538  cat Gemfile
+ 1539  vi Gemfile
+ 1540  cat Gemfile
+ 1541  bundle install
+ 1542  sudo apt install ca-certificates
+ 1543  sudo apt remove openssl
+ 1544  gem sources
+ 1545  ruby -ropenssl -e 'puts OpenSSL::X509::DEFAULT_CERT_FILE'
+ 1546  which security
+ 1547  ls
+ 1548  ls !
+ 1549  ls ~
+ 1550  sudo update-ca-certificates
+ 1551  ls /usr/lib/ssl/
+ 1552  cd
+ 1553  cp GlobalSignRootCA.pem /usr/lib/ssl/
+ 1554  sudo cp GlobalSignRootCA.pem /usr/lib/ssl/
+ 1555  which rubygems
+ 1556  gem which rubygems
+ 1557  ls .rbenv/versions/2.7.1/lib/ruby/2.7.0/
+ 1558  ls .rbenv/versions/2.7.1/lib/ruby/2.7.0/rubygems
+ 1559  ls .rbenv/versions/2.7.1/lib/ruby/2.7.0/rubygems/ssl_certs/
+ 1560  ls .rbenv/versions/2.7.1/lib/ruby/2.7.0/rubygems/ssl_certs/rubygems.org/
+ 1561  ls
+ 1562  cp GlobalSignRootCA.pem .rbenv/versions/2.7.1/lib/ruby/2.7.0/rubygems/ssl_certs/rubygems.org/
+ 1563  ls .rbenv/versions/2.7.1/lib/ruby/2.7.0/rubygems/ssl_certs/rubygems.org/
+ 1564  LS
+ 1565  cd ../cms_project/
+ 1566  bundle install
+ 1567  bundle update
+ 1568  gem update --system
+ 1569  gem install bcrypt
+ 1570  irb
+ 1571  nvim cms.rb
+ 1572  nvim todo.rb
+ 1573  lsblk
+ 1574  sudo dd if=/home/aleks/Downloads/drbl-live-xfce-2.5.1-16-amd64.iso of=/dev/sdb bs=8M status=progress
+ 1575  lsblk
+ 1576  mpv https://www.youtube.com/watch?v=4fYu8lAG_Ng
+ 1577  ytdl
+ 1578  which ytdl
+ 1579  which ytdlp
+ 1580  which yt-dlp
+ 1581  ls .config/mpv/
+ 1582  vi .config/mpv/mpv.conf 
+ 1583  cat .config/mpv/mpv.conf
+ 1584  vi .config/mpv/mpv.conf
+ 1585  vi
+ 1586  gedit .config/
+ 1587  gedit .config/mpv/mpv.conf 
+ 1588  nvim .config/mpv/mpv.conf 
+ 1589  cd .config/mpv/mpv.conf
+ 1590  cd .config/mpv/
+ 1591  cp mpv.conf mpv.conf.bak
+ 1592  vi mpv.conf
+ 1593  vi mpv.conf.bak 
+ 1594  history | grep mpv
+ 1595  mpv https://www.youtube.com/watch?v=4fYu8lAG_Ng
+ 1596  yt-dlp https://www.youtube.com/watch?v=4fYu8lAG_Ng
+ 1597  vi mpv.conf
+ 1598  yt-dlp https://www.youtube.com/watch?v=4fYu8lAG_Ng
+ 1599  mpv https://www.youtube.com/watch?v=4fYu8lAG_Ng
+ 1600  vi mpv.conf
+ 1601  mpv https://www.youtube.com/watch?v=4fYu8lAG_Ng
+ 1602  mpv https://www.youtube.com/watch?v=cqdVBhPp_xk
+ 1603  vi mpv.conf
+ 1604  mpv https://www.youtube.com/watch?v=cqdVBhPp_xk
+ 1605  yt-dlp https://www.youtube.com/watch?v=cqdVBhPp_xk
+ 1606  yt-dlp -U
+ 1607  python3 -m pip install -U yt-dlp
+ 1608  yt-dlp https://www.youtube.com/watch?v=cqdVBhPp_xk
+ 1609  sudo apt install openssl
+ 1610  openssl s_client -connect pypi.python.org:443
+ 1611  cd
+ 1612  cd Downloads/
+ 1613  vi install_certificates.py
+ 1614  python3 install_certificates.py 
+ 1615  sudo python3 install_certificates.py 
+ 1616  yt-dlp https://www.youtube.com/watch?v=cqdVBhPp_xk
+ 1617  ls
+ 1618  mpv https://www.youtube.com/watch?v=cqdVBhPp_xk
+ 1619  mpv https://www.youtube.com/watch?v=4fYu8lAG_Ng
+ 1620  lsblk
+ 1621  ls /media/
+ 1622  ls /media/aleks/
+ 1623  ls
+ 1624  ls /media/cdrom/
+ 1625  ls /media/mcx/
+ 1626  ls /media/usb
+ 1627  lsblk -f
+ 1628  ls
+ 1629  lsblk
+ 1630  cp -r * /run/timeshift/backup/0109_backup/
+ 1631  ls
+ 1632  mv GlobalSignRootCA.pem Documents/
+ 1633  ls
+ 1634  ls .*
+ 1635  du -sh .config/
+ 1636  du -sh .cache/
+ 1637  history | mpv
+ 1638  history | grep mpv
+ 1639  mpv https://www.youtube.com/watch?v=4fYu8lAG_Ng
+ 1640  sudo apt update
+ 1641  kitty
+ 1642  tmux
+ 1643  lsblk
+ 1644  sudo tlp-stat
+ 1645  tmux
+ 1646  bundle exec ruby cms.rb 
+ 1647  nvim todo.rb
+ 1648  nvim cms.rb
+ 1649  xfce-terminal
+ 1650  apt list | grep xfce
+ 1651  apt list | grep terminal | grep installed
+ 1652  xfce4-terminal
+ 1653  sudo apt update
+ 1654  c
+ 1655  ls
+ 1656  cd Documents/
+ 1657  ls
+ 1658  htop
+ 1659  https://d15v304a6xpq4b.cloudfront.net/lesson_images/1ef1e973.jpg
+ 1660  mpv https://youtu.be/2gujrl5NU8M
+ 1661  mpv https://youtu.be/lPf2aGBnq5I
+ 1662  t 
+ 1663  t d
+ 1664  t sheet draw_a_box
+ 1665  t in
+ 1666  htop
+ 1667  mpv https://youtu.be/CAVNYq4Ab2k
+ 1668  mpv https://youtu.be/jbkSRLYSojo
+ 1669  mpv https://youtu.be/hUmyR2vy1Y4
+ 1670  mpv https://youtu.be/mgl6Ll3K3gw
+ 1671  mpv https://youtu.be/G7Ukb3hTkYY
+ 1672  sudo apt-get install postgresql postgresql-contrib libpq-dev
+ 1673  sudo -u postgres createuser --superuser $USER
+ 1674  sudo -u postgres createdb $USER
+ 1675  cd
+ 1676  ls -a
+ 1677  touch .psql_history
+ 1678  psql
+ 1679  psql postgres
+ 1680  createdb ls_burger
+ 1681  ls -a
+ 1682  cd Documents/ruby/
+ 1683  ls
+ 1684  mkdir sql_book
+ 1685  touch ls_burger.sql
+ 1686  vi ls_burger.sql 
+ 1687  psql -d ls_burger < ls_burger.sql
+ 1688  ls -a
+ 1689  mv ls_burger.sql sql_book/ls_burger.sql
+ 1690  cd sql_book/
+ 1691  ls
+ 1692  psql -d ls_burger 
+ 1693  ls
+ 1694  cat ls_burger.sql 
+ 1695  psql ls_burger 
+ 1696  createdb sql_book
+ 1697  ls -a
+ 1698  psql -d sql_book
+ 1699  vi ~/.bashrc 
+ 1700  which psql
+ 1701  psql -d sql_book 
+ 1702  source ~/.bashrc 
+ 1703  psql -d sql_book 
+ 1704  createdb my_database
+ 1705  dropdb my_database 
+ 1706  psql
+ 1707  showdb
+ 1708  psql -d sql_book 
+ 1709  ls /var/lib/postgresql/13/main
+ 1710  ls /var/lib/postgresql/13/main/
+ 1711  sudo ls /var/lib/postgresql/13/main/
+ 1712  ls ~
+ 1713  sudo ls /var/lib/postgresql/13/
+ 1714  sudo ls /var/lib/postgresql/
+ 1715  sudo ls /var/lib/
+ 1716  ls /var/lib/
+ 1717  ls /var/lib/postgresql/
+ 1718  ls /var/lib/postgresql/13/
+ 1719  ls /var/lib/postgresql/13/main/
+ 1720  psql
+ 1721  createdb database_one
+ 1722  psql -d database_one 
+ 1723  dropdb database_one ls_burger 
+ 1724  dropdb database_one
+ 1725  dropdb ls_burger 
+ 1726  sudo apt update
+ 1727  htop
+ 1728  psql sql_book
+ 1729  vi .bashrc 
+ 1730  psql
+ 1731  psql instructor
+ 1732  createdb instructor
+ 1733  psql instructor
+ 1734  psql -d sql-course
+ 1735  createdb sql-course
+ 1736  psql sql-course
+ 1737  createdb animals
+ 1738  psql animals
+ 1739  ls
+ 1740  sudo apt update
+ 1741  mpv https://www.youtube.com/watch?v=2gujrl5NU8M
+ 1742  t in
+ 1743  t out 
+ 1744  t d -v
+ 1745  t kill -i 438
+ 1746  cd Documents/ruby/
+ 1747  ls
+ 1748  vi scratch.rb
+ 1749  ruby scratch.rb 
+ 1750  vi scratch.rb 
+ 1751  ruby scratch.rb 
+ 1752  vi scratch.rb 
+ 1753  ruby scratch.rb 
+ 1754  vi scratch.rb 
+ 1755  ruby scratch.rb 
+ 1756  vi scratch.rb 
+ 1757  ruby scratch.rb 
+ 1758  vi scratch.rb 
+ 1759  ruby scratch.rb 
+ 1760  vi scratch.rb 
+ 1761  ruby scratch.rb 
+ 1762  vi scratch.rb 
+ 1763  ruby scratch.rb 
+ 1764  vi scratch.rb 
+ 1765  ruby scratch.rb 
+ 1766  vi scratch.rb 
+ 1767  ruby scratch.rb 
+ 1768  ls
+ 1769  ruby scratch.rb 
+ 1770  vi scratch.rb 
+ 1771  ruby scratch.rb 
+ 1772  vi scratch.rb 
+ 1773  ruby scratch.rb 
+ 1774  vi scratch.rb 
+ 1775  ruby scratch.rb 
+ 1776  vi scratch.rb 
+ 1777  ruby scratch.rb 
+ 1778  vi scratch.rb 
+ 1779  ruby scratch.rb 
+ 1780  t in
+ 1781  tlp
+ 1782  tlp-stat
+ 1783  sudo tlp-stat
+ 1784  man tlp-stat
+ 1785  sudo tlp-stat --configure
+ 1786  sudo tlp-stat --config
+ 1787  htop
+ 1788  systemctl disable docker.service docker.socket
+ 1789  sudo systemctl disable jellyfin.service
+ 1790  sudo systemctl disable docker.service
+ 1791  sudo systemctl disable cups.service
+ 1792  sudo systemctl disable syncthing-resume.service 
+ 1793  htop
+ 1794  sudo apt update
+ 1795  t out
+ 1796  t d -v
+ 1797  t kill -i 439
+ 1798  LS
+ 1799  ls
+ 1800  mkdir ls180
+ 1801  cd ls180
+ 1802  ls
+ 1803  vi fkey.sql
+ 1804  createdb foreign_practice
+ 1805  psql foreign_practice < fkey.sql 
+ 1806  psql foreign_practice 
+ 1807  vi one_to_many.sql
+ 1808  psql foreign_practice < one_to_many.sql 
+ 1809  psql foreign_practice 
+ 1810  t d
+ 1811  t today
+ 1812  t in --at "10 minutes ago"
+ 1813  psql foreign_practice 
+ 1814  kill jellyfin
+ 1815  pidof jellyfin
+ 1816  kill 586
+ 1817  sudo kill 586
+ 1818  htop
+ 1819  sudo apt purge jellyfin
+ 1820  htop
+ 1821  pidof jellyfin 
+ 1822  sudo kill 23577
+ 1823  pidof jellyfin 
+ 1824  htop
+ 1825  ls /usr/share/
+ 1826  sudo apt purge jellyfin-server jellyfin-web jellyfin-ffmpeg
+ 1827  ls /usr/share/
+ 1828  psql foreign_practice 
+ 1829  LS
+ 1830  cd ls180/
+ 1831  vi extracting.sql
+ 1832  createdb extracting
+ 1833  psql extracting < extracting.sql 
+ 1834  psql extracting 
+ 1835  t out
+ 1836  t d -v
+ 1837  t e -i 440 -sheet ls180
+ 1838  man timetrap
+ 1839  timetrap --help
+ 1840  t edit -i 440 -m ls180
+ 1841  t sheet ls180
+ 1842  t in
+ 1843  ls
+ 1844  sudo apt update
+ 1845  lm-sensors
+ 1846  apt list | grep sensor
+ 1847  sensors
+ 1848  sudo apt install lm-sensors
+ 1849  lm-sensors
+ 1850  sudo lm-sensors
+ 1851  sudo sensors-detect
+ 1852  sensors
+ 1853  sudo apt install psensor
+ 1854  sudo apt autoremove
+ 1855  psensor
+ 1856  sudo apt remove psensor
+ 1857  htop
+ 1858  sudo apt update
+ 1859  cat /etc/apt/sources.list
+ 1860  ls /etc/apt/
+ 1861  cat /etc/apt/sources.list.d/
+ 1862  ls /etc/apt/sources.list.d/
+ 1863  sudo rm /etc/apt/sources.list.d/jellyfin.list
+ 1864  sudo rm /etc/apt/sources.list.d/jellyfin.list.save
+ 1865  sudo apt update
+ 1866  cd Videos/
+ 1867  ls
+ 1868  cd \[anime4life.\]\ ERASED\ 1-12\ Complete\ \(BDRip\ 1080p\ AC3\ 10bit\)\ \[HEVC\]\ Dual\ Audio/
+ 1869  cd ../
+ 1870  mkdir erased
+ 1871  ls \[anime4life.\]\ ERASED\ 1-12\ Complete\ \(BDRip\ 1080p\ AC3\ 10bit\)\ \[HEVC\]\ Dual\ Audio/
+ 1872  mv \[anime4life.\]\ ERASED\ 1-12\ Complete\ \(BDRip\ 1080p\ AC3\ 10bit\)\ \[HEVC\]\ Dual\ Audio/*.mkv erased/
+ 1873  ls erased/
+ 1874  ls \[anime4life.\]\ ERASED\ 1-12\ Complete\ \(BDRip\ 1080p\ AC3\ 10bit\)\ \[HEVC\]\ Dual\ Audio/
+ 1875  rm -r \[anime4life.\]\ ERASED\ 1-12\ Complete\ \(BDRip\ 1080p\ AC3\ 10bit\)\ \[HEVC\]\ Dual\ Audio/
+ 1876  cd erased/
+ 1877  mpv erased_04
+ 1878  mpv erased_04_accomplishment.mkv 
+ 1879  mpv erased_03_bruise.mkv 
+ 1880  mpv erased_04_accomplishment.mkv 
+ 1881  mpv erased_05_getaway.mkv 
+ 1882  yt sqlite
+ 1883  yt sqlite ruby
+ 1884  mpv erased_06_grim_reaper.mkv 
+ 1885  mpv erased_07_out_of_control.mkv 
+ 1886  ls
+ 1887  touch next_ep_to_watch_is_8
+ 1888  ls
+ 1889  LS
+ 1890  cd ls180
+ 1891  psql extracting 
+ 1892  sudo update-grub
+ 1893  sudo vi /etc/default/grub
+ 1894  ls
+ 1895  cd Documents/
+ 1896  ls
+ 1897  ls roms
+ 1898  cd roms
+ 1899  cd backup_roms/
+ 1900  ls
+ 1901  flashrom -c
+ 1902  sudo flashrom -c
+ 1903  flashrom --help
+ 1904  sudo flashrom --help
+ 1905  sudo flashrom -l
+ 1906  flashrom -p internal -r dump.bin -V
+ 1907  sudo flashrom -p internal -r dump.bin -V
+ 1908  man flashrom
+ 1909  cd Documents/roms/
+ 1910  ls
+ 1911  neofetch
+ 1912  htop
+ 1913  ls
+ 1914  t out --at "15 minutes ago"
+ 1915  t in
+ 1916  t out
+ 1917  t in
+ 1918  exit
+ 1919  cd Documents/jan18/
+ 1920  ls
+ 1921  gs  -sOutputFile=lesson_3_gray.pdf  -sDEVICE=pdfwrite  -sColorConversionStrategy=Gray  -dProcessColorModel=/DeviceGray  -dCompatibilityLevel=1.4  -dNOPAUSE  -dBATCH  lesson_3.pdf
+ 1922  gs  -sOutputFile=50_common.pdf  -sDEVICE=pdfwrite  -sColorConversionStrategy=Gray  -dProcessColorModel=/DeviceGray  -dCompatibilityLevel=1.4  -dNOPAUSE  -dBATCH  50_common_irregular_verbs_list.pdf
+ 1923  convert clothes-pictionary-flashcards-picture-dictionaries_13790_1.jpg -colorspace Gray clothes_gray.jpg
+ 1924  convert months-seasons-weather-clothes-and-activities-conversation-topics-dialogs-picture-dictionaries_91033_1.jpg -colorspace GRAY months_gray.jpg
+ 1925  convert past-simple-worksheet-fun-activities-games-grammar-drills_15549_1.jpg -colorspace GRAY past_simple_gray.jpg
+ 1926  convert past_simple_gray.jpg past.pdf
+ 1927  sudo convert past_simple_gray.jpg past.pdf
+ 1928  ls /etc/ImageMagick-6/
+ 1929  vi /etc/ImageMagick-6/policy.xml 
+ 1930  sudo vi /etc/ImageMagick-6/policy.xml 
+ 1931  sudo convert past_simple_gray.jpg past.pdf
+ 1932  ls
+ 1933  ls -a
+ 1934  cd .config/
+ 1935  ls
+ 1936  cd timetrap/
+ 1937  ls
+ 1938  ls -a
+ 1939  ranger
+ 1940  sudo apt install ranger
+ 1941  ranger
+ 1942  md5sum 'hello world'
+ 1943  irb
+ 1944  gem install bcrypt
+ 1945  irb
+ 1946  ls
+ 1947  psql extracting 
+ 1948  history
+ 1949  htop
+ 1950  gem list -d 
+ 1951  irb
+ 1952  exit
+ 1953  xfce4-terminal --geometry 140x20+50+50
+ 1954  resize -s 100 100
+ 1955  t in
+ 1956  t out 
+ 1957  t d -v
+ 1958  t kill -i 441
+ 1959  t in
+ 1960  LS
+ 1961  ls
+ 1962  cd ls180
+ 1963  ls
+ 1964  vi ls180
+ 1965  tmux new
+ 1966  vi
+ 1967  LS
+ 1968  ls ls180/
+ 1969  vi scrap
+ 1970  ls
+ 1971  ls ls180/
+ 1972  ls -a
+ 1973  ls ..
+ 1974  cd ..
+ 1975  cat scratch.rb 
+ 1976  rm scratch.rb 
+ 1977  exit
+ 1978  nvim lib/datecore.rb
+ 1979  LS
+ 1980  ls ls180/
+ 1981  psql auction
+ 1982  ruby -v
+ 1983  rbenv global 3.1.0
+ 1984  ls
+ 1985  rbenv global 3.0.0
+ 1986  gem install pg
+ 1987  psql list
+ 1988  psql \list
+ 1989  psql -list
+ 1990  psql -l
+ 1991  pry
+ 1992  exit
+ 1993  LS
+ 1994  ls ls180/
+ 1995  vi film_dump.sql
+ 1996  mv film_dump.sql ls180/
+ 1997  cd ls180/
+ 1998  history
+ 1999  exit
+ 2000  ranger
+ 2001  cd Downloads/
+ 2002  ls
+ 2003  mv d2\ druk.jpeg testy\ neuropsychologia-skany
+ 2004  ls
+ 2005  cd testy\ neuropsychologia-skany/
+ 2006  ls
+ 2007  convert *.jpg -auto-orient pictures.pdf
+ 2008  ls
+ 2009  zathura pictures.pdf 
+ 2010  img2pdf *.jp* --output combined.pdf
+ 2011  sudo apt install img2pdf
+ 2012  img2pdf *.jp* --output combined.pdf
+ 2013  ls
+ 2014  cd ../testy\ neuropsychologia-skany\ \(1\)/
+ 2015  ls
+ 2016  img2pdf *.jp* --output combined.pdf
+ 2017  ls
+ 2018  zathura combined.pdf 
+ 2019  gs  -sOutputFile=output.pdf  -sDEVICE=pdfwrite  -sColorConversionStrategy=Gray  -dProcessColorModel=/DeviceGray  -dCompatibilityLevel=1.4  -dNOPAUSE  -dBATCH  combined.pdf
+ 2020  cd ../testy\ neuropsychologia-skany/
+ 2021  ls
+ 2022  img2pdf d2\ druk.jpeg --output d2_druk.pdf
+ 2023  ls
+ 2024  gs  -sOutputFile=output.pdf  -sDEVICE=pdfwrite  -sColorConversionStrategy=Gray  -dProcessColorModel=/DeviceGray  -dCompatibilityLevel=1.4  -dNOPAUSE  -dBATCH  d2_druk.pdf
+ 2025  ls
+ 2026  zathura output.pdf 
+ 2027  ranger
+ 2028  htop
+ 2029  LS
+ 2030  ls
+ 2031  cd ../
+ 2032  ls
+ 2033  cd cli_app/
+ 2034  ./expense
+ 2035  ruby -v
+ 2036  rbenv 3.0.0
+ 2037  rbenv global 3.0.0
+ 2038  ./expense
+ 2039  ./expense list
+ 2040  ./expense add 147 "vet visit"
+ 2041  ./expense list
+ 2042  ./expense search vet
+ 2043  ./expenese delete 1
+ 2044  ./expense delete 1
+ 2045  ./expense list
+ 2046  ./expense add 25 "vet visit"
+ 2047  ./expense add 170 "vet visit"
+ 2048  ./expense delete 2
+ 2049  ./expense search vet
+ 2050  ./expense add 2700 rent
+ 2051  ./expense search vet
+ 2052  irb
+ 2053  ./expense search vet
+ 2054  ./expense add 13 fineliner
+ 2055  ./expense list
+ 2056  ./expense add 12.99 fineliner
+ 2057  ./expense list
+ 2058  irb
+ 2059  ./expense search bet
+ 2060  ./expense search vet
+ 2061  ./expense clear
+ 2062  ./expense search vet
+ 2063  irb
+ 2064  ./expense add 5.99 fineliner
+ 2065  ./expense list
+ 2066  ./expense add 12.99 sketchbook 2021-01-19
+ 2067  ./expense list
+ 2068  ./expense add 12.99 sketchbook fuck
+ 2069  ./expense add 12.99 sketchbook 18-01-2022
+ 2070  ./expense add 12.99 sketchbook 2023-01-01
+ 2071  ./expense list
+ 2072  ./expense search fineliner
+ 2073  ./expense search finelinerz
+ 2074  ./expense search sketchbook
+ 2075  sudo apt update
+ 2076  yt neovim go to definition
+ 2077  yt ruby neovim solargraph
+ 2078  yt ruby vim
+ 2079  yt vim
+ 2080  vim luke smith
+ 2081  yt vim luke smith
+ 2082  yt the primeagen
+ 2083  ls /tmp
+ 2084  yt primeagen vim
+ 2085  ranger
+ 2086  apt list | grep codium
+ 2087  sudo apt purge codium
+ 2088  ls /etc/apt/sources.list.d/
+ 2089  cd /etc/apt/sources.list.d/
+ 2090  ls
+ 2091  rm vscodium.list vscodium.list.save 
+ 2092  sudo rm vscodium.list vscodium.list.save 
+ 2093  ls
+ 2094  sudo apt update
+ 2095  sudo apt upgrade
+ 2096  flatpak list
+ 2097  cd
+ 2098  ls
+ 2099  cd Documents/
+ 2100  ls
+ 2101  cd ruby/
+ 2102  ls
+ 2103  cd launch_school/
+ 2104  ls
+ 2105  cd rb101
+ 2106  ls
+ 2107  cd lesson_
+ 2108  cd lesson_2
+ 2109  ls
+ 2110  vi *.rb
+ 2111  createdb todos
+ 2112  psql todos
+ 2113  ls
+ 2114  LS
+ 2115  cd ../sinatra_todos_185
+ 2116  ls
+ 2117  vi schema.sql
+ 2118  psql todos
+ 2119  psql todos < schema.sql 
+ 2120  bundle install
+ 2121  psql todos
+ 2122  ls
+ 2123  cp database_persistence.rb session_persistence.rb
+ 2124  ls
+ 2125  psql todos
+ 2126  irb
+ 2127  htop
+ 2128  psql todos
+ 2129  ls
+ 2130  vi Gemfile
+ 2131  git init.
+ 2132  git init .
+ 2133  heroku login
+ 2134  vi Gemfile
+ 2135  bundle install
+ 2136  vi Gemfile
+ 2137  bundle install
+ 2138  vi config.ru 
+ 2139  vi Pro
+ 2140  vi Procfile
+ 2141  heroku local
+ 2142  bundle install
+ 2143  heroku local
+ 2144  heroku apps:create cas-185-todos
+ 2145  heroku addons:create heroku-postgresql:hobby-dev cas-185-todos
+ 2146  heroku addons:create heroku-postgresql:hobby-dev -a cas-185-todos
+ 2147  heroku ps:psql postgresql-contoured-66791 < schema.sql 
+ 2148  heroku pg:psql postgresql-contoured-66791 < schema.sql 
+ 2149  heroku pg:psql
+ 2150  git add .
+ 2151  git commit -m "edits for heroku deploy"
+ 2152  git push heroku main
+ 2153  git push heroku master
+ 2154  psql todos
+ 2155  rubocop todo.rb 
+ 2156  git push heroku master
+ 2157  git add .
+ 2158  git commit -m "db optimization"
+ 2159  git push heroku master
+ 2160  ls ../sinatra_todos
+ 2161  history | less
